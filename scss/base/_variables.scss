@@ -1,0 +1,140 @@
+// Colors
+
+$white:        #fff;
+$black:        #000;
+$cinder:       #0D0A11;
+$silver:       #C4C4C4;  
+$gray-lighter: #FBFBFB;  
+$codgray:      #1D1B1B;
+$greenpea:     #184E2F;
+$matisse:      #1F5A95;
+$ebonyclay:    #232E3D;
+$alpine:       #A2A72E;
+$pattensblue:  #D9ECFF;
+$cornflowerblue: #6BABEB;
+
+$red:          #CF0000;
+$redpink:      #ED5CA1;
+$redpink-500:  #F4ABCF;
+$redpink-200:  #F8DAEB;
+
+$orange:       #FE6C3B;
+$orange-500:   #F2BC78;
+$orange-200:   #EAD5B9;
+
+$blue-tosca:     #01A99D;
+$blue-tosca-500: #7ED1CD;
+$blue-tosca-200: #C9EAEA;
+
+$green:     #029C54;
+$green-500: #B7CFA8;
+$green-200: #D3DCCD;
+
+$blue:     #1C4079;
+$blue-500: #7EB9DA;
+$blue-200: #C9E0EF;
+
+$blue-sky:     #00BAEA;
+$blue-sky-500: #7EDAF3;
+$blue-sky-200: #C9EDF9;
+
+$purple:     #4B16B2;
+$purple-800: #8032E8;
+$purple-600: #995AEC;
+$purple-400: #B182F0;
+$purple-300: #CAAAF5;
+$purple-200: #E2D2F9;
+$purple-100: #EFE6FB;
+
+$purple-dark-800: #220A52;
+$purple-dark-600: #4F3B74;
+$purple-dark-400: #7B6C97;
+$purple-dark-300: #A79DBA;
+$purple-dark-200: #D3CEDC;
+$purple-dark-100: #E9E7EE;
+
+$primary:    $matisse;
+$success:    $green;
+$warning:    $orange;
+$danger:     $red;
+$error:      $redpink;
+
+$text-color: $ebonyclay;
+$secondary:  $silver;
+$disabled:   $purple-dark-300;
+
+$border-color: $purple-dark-200;
+$border-width: 1px;
+
+$border-radius:    8px; 
+$border-radius-xs: 4px;
+$border-radius-md: 12px;
+$border-radius-lg: 14px;
+
+$base-font-sans-serif: 'Proxima Nova', 'Arial', sans-serif;
+$proxima_novablack: 'proxima_novablack', 'Arial', sans-serif;
+$sohneBreit: 'Sohne Breit', sans-serif;
+
+$transition--length: .8;
+$background--color:#1e2023;
+$icon--color:#1e2023;
+$font--color:#ffffff;
+$font--color--active:#000000;
+$font--primary:'Fira Sans', sans-serif;
+
+// Body
+$base-text-color: $text-color;
+$base-background-color: $white;
+$font-size-base: 16px;
+$line-height-base: 1.4;
+$base-font-family: $base-font-sans-serif;
+
+$font-size-lg: 20px;
+$font-size-md: 18px;
+$font-size-sm: 14px;
+$font-size-xs: 12px;
+
+$vertical-rhythm: ($line-height-base * 1em);
+
+$base-min-width: 375px;
+$base-max-width: 1488px;
+$base-max-width-small: 1230px;
+
+// Liks
+$base-link-color: $codgray;
+$base-link-hover-color: $orange;
+
+// Buttons 
+$btn-color: $white;
+$btn-background: $purple-800;
+$btn-padding: 14px 15px;
+$btn-font-size: 13px;
+
+// Forms
+$form-element-padding: $btn-padding;
+$form-element-color: rgba($base-text-color, 0.7);
+$form-element-background: $gray-lighter;
+$form-element-border-color: $gray-lighter;
+$form-element-focus-border-color: $base-text-color;
+$placeholder-color: rgba($base-text-color, 0.2);
+
+// Headers
+$h1-font-size: 4.063rem;
+$h2-font-size: 3.875rem;
+$h3-font-size: 2.188rem;
+$h4-font-size: 1.875rem;
+$h5-font-size: 2.188rem;
+$h6-font-size: 14px;
+
+// Headers for mobile screen
+$h1-small-font-size: $h1-font-size;
+$h2-small-font-size: $h2-font-size;
+$h3-small-font-size: $h3-font-size;
+$h4-small-font-size: $h4-font-size;
+$h5-small-font-size: $h5-font-size;
+$h6-small-font-size: $h6-font-size;
+
+$headings-font-family: $base-font-sans-serif;
+$headings-color: $matisse;
+
+$animation-speed: 0.3s;

@@ -1,0 +1,19 @@
+#header {
+    position: relative;
+    @include position(0,0,auto,0);
+    z-index: 999;
+}
+
+.logo {
+    width: 37px;
+    @include media('>=phone') {
+        width: 60px;
+    }
+    a {
+        display: block;
+        background: none;
+        img {
+            @include size(100%, auto);
+        }
+    }
+}
