@@ -2668,7 +2668,7 @@ hr {
   color: #fff;
   text-transform: uppercase;
   position: absolute;
-  top: 50%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all linear 0.3s;
@@ -2975,7 +2975,7 @@ hr {
 }
 .hero .text-block {
   position: absolute;
-  top: 44%;
+  top: 40%;
   right: auto;
   bottom: auto;
   left: 50%;
@@ -2995,7 +2995,7 @@ hr {
     font-size: 5.875rem;
     line-height: 5.875rem;
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: auto;
     bottom: auto;
     left: 50%;
@@ -3159,7 +3159,7 @@ hr {
 }
 
 .carbon-details-inner {
-  background: #1F5A95;
+  background: #1F5A95 url(../images/bg-wave.svg) repeat 0 0/contain;
   min-height: 728px;
   overflow: hidden;
   color: #fff;

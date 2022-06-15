@@ -156,7 +156,7 @@ hr {
             color: $white;
             text-transform: uppercase;
             position: absolute;
-            top: 50%;
+            top: 37%; 
             left: 50%;
             transform: translate(-50%, -50%);
             transition: all linear 0.3s;
@@ -412,7 +412,7 @@ hr {
     }
 
     .text-block {
-        @include position(44%, auto, auto, 50%);
+        @include position(40%, auto, auto, 50%);
         width: 319px;
         margin: 0 auto;
         margin-left: -160px;
@@ -426,7 +426,7 @@ hr {
         @include media('>=tablet') {
             font-size: 5.875rem;
             line-height: 5.875rem;
-            @include position(50%, auto, auto, 50%);
+            @include position(40%, auto, auto, 50%);
             width: 500px;
             margin-left: -250px;
         }
@@ -559,7 +559,7 @@ hr {
 }
 
 .carbon-details-inner {
-    background: $matisse;
+    background: $matisse url(../images/bg-wave.svg) repeat 0 0/ contain;
     min-height: 728px;
     overflow: hidden;
     color: $white;
