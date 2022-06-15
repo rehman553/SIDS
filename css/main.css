@@ -2871,18 +2871,23 @@ hr {
     left: 50%;
     transform: translateX(-50%);
   }
+  .hero .text-holder.foreign-details p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 992px) {
   .hero .text-holder.foreign-details h3 {
     font-size: 1.875rem;
     color: #fff;
     margin-bottom: 20px;
   }
-  .hero .text-holder.foreign-details p {
-    font-size: 1rem;
-  }
 }
 @media (max-width: 767px) {
   .hero .text-holder.foreign-details {
     width: 302px;
+  }
+  .hero .text-holder.foreign-details h3 {
+    font-size: 1.675rem;
   }
 }
 @media (max-width: 767px) {

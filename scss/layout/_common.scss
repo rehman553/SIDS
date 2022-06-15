@@ -330,17 +330,22 @@ hr {
                 max-width: inherit;
                 left: 50%;
                 transform: translateX(-50%);
-                h3 {
-                    font-size: 1.875rem;
-                    color: $white;
-                    margin-bottom: 20px;
-                }
                 p {
                     font-size: 1rem;
                 }
             }
+            h3 {
+                @include media('<=tablet') { 
+                    font-size: 1.875rem;
+                    color: $white;
+                    margin-bottom: 20px;
+                }
+            }
             @include media('<=phone') { 
                 width: 302px;
+                h3 {
+                    font-size: 1.675rem;
+                }
             }
         }
         h3 {
