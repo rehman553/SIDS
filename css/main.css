@@ -3124,6 +3124,19 @@ hr {
     margin-top: 136px;
   }
 }
+.details-holder .heading-frame.ocean {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.details-holder .heading-frame.ocean .t-box {
+  max-width: 272px;
+}
+@media (min-width: 767px) {
+  .details-holder .heading-frame.ocean .t-box {
+    max-width: 300px;
+  }
+}
 .details-holder .img-frame {
   position: relative;
 }
@@ -3337,6 +3350,11 @@ h4 {
     padding: 141px 0 141px 15px;
     margin: 0 0 0 auto;
   }
+}
+.opportunities-holder .text-frame.slide-holder-area {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .opportunity-data h4 {
