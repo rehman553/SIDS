@@ -3124,10 +3124,12 @@ hr {
     margin-top: 136px;
   }
 }
-.details-holder .heading-frame.ocean {
-  max-width: 450px;
-  margin-left: auto;
-  margin-right: auto;
+@media (min-width: 992px) {
+  .details-holder .heading-frame.ocean {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .details-holder .heading-frame.ocean .t-box {
   max-width: 272px;
@@ -3352,9 +3354,14 @@ h4 {
   }
 }
 .opportunities-holder .text-frame.slide-holder-area {
-  max-width: 450px;
+  max-width: 550px;
   margin-left: auto;
   margin-right: auto;
+}
+@media (min-width: 992px) {
+  .opportunities-holder .text-frame.slide-holder-area {
+    max-width: 450px;
+  }
 }
 
 .opportunity-data h4 {

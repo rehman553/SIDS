@@ -525,9 +525,11 @@ hr {
             margin-top: 136px;
         }
         &.ocean {
-            max-width: 450px;
-            margin-left: auto;
-            margin-right: auto;
+            @include media('>=tablet') {
+                max-width: 450px; 
+                margin-left: auto;
+                margin-right: auto;
+            }
             .t-box {
                 max-width: 272px;
                 @include media('>=phone') {
@@ -737,9 +739,12 @@ h4 {
             margin: 0 0 0 auto;
         }
         &.slide-holder-area {
-            max-width: 450px;
+            max-width: 550px;
             margin-left: auto;
             margin-right: auto;
+            @include media('>=tablet') {
+                max-width: 450px;
+            }
         }
     }
 }
