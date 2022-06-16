@@ -4013,12 +4013,17 @@ h4 {
   opacity: 0;
   margin: 0;
   padding: 0;
+  max-width: 600px;
 }
-@media (max-width: 767px) {
-  .slide-caption .text strong {
-    font-size: 1rem;
-    line-height: 1rem;
-  }
+.slide-caption .text span {
+  display: block;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-bottom: 5px;
+}
+.slide-caption .text strong {
+  font-size: 1rem;
+  line-height: 1rem;
 }
 .slide-caption .text p {
   font-size: 0.75rem;
