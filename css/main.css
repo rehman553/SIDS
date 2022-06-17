@@ -2812,6 +2812,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: 99;
     width: auto;
     height: 462px;
     background: linear-gradient(0deg, #1D6082 0%, #1D6082 62.5%, rgba(29, 96, 130, 0) 100%);
@@ -2964,6 +2965,7 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 99;
   height: 37%;
   background-position: 50% 0;
 }

@@ -3,7 +3,43 @@ jQuery(function () {
     langSwitch();
     initInViewport();
     initPathDetail();
+    initHeroSection();
 });
+
+
+function initHeroSection(){
+    jQuery('.hero').each(function(){
+        var holder = jQuery(this),
+            textBox = holder.find('.text-block'),
+            textBoxHeight = textBox.height(),
+            textBoxOffset = textBox.offset().top,
+
+            activeClass = 'active',
+            stickyClass = 'sticky';
+        
+        jQuery(window).on('scroll', function () {
+            stickyTextBox();
+        });
+        function stickyTextBox() {
+            var win = jQuery(window),
+                winHeight = win.height(),
+                winScroll = win.scrollTop(),
+                textBoxOffsetFixed = textBox.offset().top,
+
+                topScrollPosition = (winHeight / 2) - (textBoxHeight / 2),
+                calcPositionTop = textBoxOffset - topScrollPosition,
+                calcPosition = winScroll + (textBoxOffset - calcPositionTop);
+
+            if (winScroll > calcPositionTop) {
+                textBox.css('top', calcPosition + 'px');
+                textBox.addClass(stickyClass);
+            } else {
+                textBox.css('top', textBoxOffset);
+                textBox.removeClass(stickyClass);
+            }
+        }
+    })
+}
 
 function initPathDetail() {
     jQuery('.path-details').each(function () {
